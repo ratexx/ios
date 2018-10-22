@@ -12,6 +12,8 @@
 		00C66B8C217CA6AC001B52E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C66B8A217CA6AC001B52E7 /* Main.storyboard */; };
 		00C66B8E217CA6B0001B52E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C66B8D217CA6B0001B52E7 /* Assets.xcassets */; };
 		00C66B91217CA6B0001B52E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C66B8F217CA6B0001B52E7 /* LaunchScreen.storyboard */; };
+		00C66B9B217CBA11001B52E7 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C66B9A217CBA11001B52E7 /* Todo.swift */; };
+		00C66B9D217CBCFC001B52E7 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C66B9C217CBCFC001B52E7 /* TodoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		00C66B8D217CA6B0001B52E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C66B90217CA6B0001B52E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00C66B92217CA6B0001B52E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C66B9A217CBA11001B52E7 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		00C66B9C217CBCFC001B52E7 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				00C66B8D217CA6B0001B52E7 /* Assets.xcassets */,
 				00C66B8F217CA6B0001B52E7 /* LaunchScreen.storyboard */,
 				00C66B92217CA6B0001B52E7 /* Info.plist */,
+				00C66B9A217CBA11001B52E7 /* Todo.swift */,
+				00C66B9C217CBCFC001B52E7 /* TodoItem.swift */,
 			);
 			path = "God Morning";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C66B89217CA6AC001B52E7 /* ViewController.swift in Sources */,
+				00C66B9B217CBA11001B52E7 /* Todo.swift in Sources */,
+				00C66B9D217CBCFC001B52E7 /* TodoItem.swift in Sources */,
 				00C66B87217CA6AC001B52E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JXZUP2U84;
 				INFOPLIST_FILE = "God Morning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JXZUP2U84;
 				INFOPLIST_FILE = "God Morning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
